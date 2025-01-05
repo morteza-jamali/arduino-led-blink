@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    {
+      "id": "nano",
+      "type": "wokwi-arduino-nano"
+    }
+  ],
+  "connections": []
+}

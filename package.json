@@ -1,0 +1,33 @@
+{
+  "name": "arduino-projects",
+  "description": "arduino-projects",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "postinstall": "npx husky"
+  },
+  "private": true,
+  "devDependencies": {
+    "@commitlint/cli": "latest",
+    "@commitlint/config-conventional": "latest",
+    "husky": "latest",
+    "lint-staged": "latest",
+    "prettier": "latest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morteza-jamali/arduino-projects.git"
+  },
+  "author": {
+    "name": "Morteza Jamali",
+    "email": "mortezajamali4241@gmail.com",
+    "url": "https://moraj.ir"
+  },
+  "bugs": {
+    "url": "https://github.com/morteza-jamali/arduino-projects/issues"
+  },
+  "homepage": "https://github.com/morteza-jamali/arduino-projects#readme",
+  "lint-staged": {
+    "**/*": "prettier -w -u"
+  }
+}
